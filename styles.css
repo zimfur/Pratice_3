@@ -1,0 +1,219 @@
+/* 确保页脚始终位于页面底部 */  
+/* 使用了Flexbox布局来确保页脚始终位于页面底部 */  
+body, html {  
+    height: 100%;  
+    margin: 0;  
+    display: flex;  
+    font-family: Arial, sans-serif;
+    flex-direction: column;
+}
+/*设置标题h1的格式*/
+header h1 {  
+    font-family: 'Times New Roman', Times, serif;  
+    font-size: 3em;  
+    color: #fdfdfd;  
+    text-align: center;  
+    margin-top: 20px;  
+    margin-bottom: 20px;  
+    text-transform: uppercase;  
+    font-weight: bold;  
+}
+/* 为页脚设置样式 */  
+footer {  
+
+    background-color: #f1f1f1;  
+    text-align: center;  
+    padding: 10px 0;  
+    margin-top: auto; 
+    width: 100%;  
+}  
+
+
+  
+
+/*h2特色设置样式*/
+h2 {  
+    font-family: 'Times New Roman', Times, serif;  
+    font-size: 2em; /* 调整能见度 */  
+    color: #333;  
+    text-align: center;  
+    margin: 20px;   
+    text-transform: uppercase;  
+    font-weight: bold;  
+}  
+  
+/*居中类*/  
+.center {  
+    text-align: center;  
+}
+
+.left {  
+    text-align: left;  
+}
+
+.right {  
+    text-align: right;  
+}
+
+/*个人字体类*/
+.Universal_script{  
+    font-family: 'Times New Roman', Times, serif;  
+    font-size: 1em;  
+    color: #333;  
+    margin-top: 20px;  
+    margin-bottom: 20px;  
+    font-weight: bold;
+}  
+
+
+.Background_framer {  
+    position: relative;  
+    margin: 20px 0;  
+    padding: 20px;  
+    background-color: #ffffff;
+    border: 1px solid #ddd; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);   
+    border-radius: 5px; 
+    z-index: 1;
+
+}
+
+.Background_framer_fix
+{    flex: 1;}
+
+.level-1 {  
+    background-color: #f9f9f9;  
+    border-color: #ccc;  
+}  
+
+.level-2 {  
+    background-color: #e9e9e9;  
+    border-color: #bbb;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 稍强的阴影效果 */  
+}  
+  
+.level-3 {  
+    background-color: #d9d9d9;  
+    border-color: #aaa;  
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* 更强的阴影效果 */  
+}  
+  
+
+  
+/* 添加一些文本样式 */  
+.Text_style_h2 {  
+    margin-top: 0;  
+    font-size: 1.5em;  
+    color: #333;  
+}  
+  
+.Text_style_p {  
+    margin: 10px 0 0;  
+    color: #666;  
+}
+
+
+
+.contact-form {  
+    max-width: 600px;  
+    margin: 0 auto;  
+    padding: 20px;  
+    border: 1px solid #ccc;  
+    border-radius: 5px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+    font-family: Arial, sans-serif;  
+}  
+
+.contact-form h2 {  
+    text-align: center;  
+    margin-bottom: 20px;  
+}  
+
+.contact-form label {  
+    display: block;  
+    margin-bottom: 5px;  
+    font-weight: bold;  
+}  
+
+.contact-form input, .contact-form textarea, .contact-form button {  
+    width: 100%;  
+    padding: 10px;  
+    margin-bottom: 15px;  
+    border: 1px solid #ccc;  
+    border-radius: 3px;  
+}  
+
+.contact-form textarea {  
+    resize: vertical;  
+    height: 150px;  
+}  
+
+.contact-form button {  
+    background-color: #28a745;  
+    color: white;  
+    border: none;  
+    cursor: pointer;  
+    font-size: 16px;  
+}  
+
+.contact-form button:hover {  
+    background-color: #218838;  
+}  
+
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.gallery img {
+  width: calc(33.33% - 10px);
+  height: auto;
+}
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header, .footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-grow: 1;
+}
+
+.sidebar {
+    flex-basis: 20%;
+    padding: 20px;
+    background-color: lightgray;
+}
+
+.content {
+    flex-basis: 80%;
+    padding: 20px;
+    background-color: lightgoldenrodyellow;
+}
+
+.footer {
+    background-color: #444;
+}
+
+.menu a {
+    display: block;
+    margin: 10px 0;
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
